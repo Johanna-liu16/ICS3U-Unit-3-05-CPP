@@ -9,15 +9,12 @@
 
 int main() {
     // this function identifies a month
-    std::string monthNumberAsString;
-    int monthAsInt;
+    char monthAsInt;
 
     // input
     std::cout << "This program converts a number to the corresponding month." << std::endl;
     std::cout << "Enter the number of a month: ";
-    std::cin >> monthNumberAsString;
-
-    monthAsInt = atoi(monthNumberAsString.c_str());
+    std::cin >> monthAsInt;
 
     // process
     switch (monthAsInt) {
