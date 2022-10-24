@@ -12,7 +12,7 @@ int main() {
     char monthAsInt;
 
     // input
-    std::cout << "This program converts a number to the corresponding month." << std::endl;
+    std::cout << "This program converts a number to a month." << std::endl;
     std::cout << "Enter the number of a month: ";
     std::cin >> monthAsInt;
 
